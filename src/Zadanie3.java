@@ -10,8 +10,6 @@ public class Zadanie3 {
         int max = 0;
         int min = 0;
         for (int i = 0; i < tab.length; i++) {
-            randomNum = (int) (Math.random() * 10);
-            tab[i] = randomNum;
             tab[1] = max;
             if (tab[i] > max) max = tab[i];
             tab[1] = min;
